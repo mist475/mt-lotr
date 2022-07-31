@@ -1,1 +1,1 @@
-1.0.0-BETA|https://www.curseforge.com/minecraft/mc-mods/mt-lotr/files|https://raw.githubusercontent.com/CraftedMods/mt-lotr/master/CHANGELOG.md
+1.0.1-BETA|https://github.com/mist475/mt-lotr/releases/tag/latest|https://raw.githubusercontent.com/mist475/mt-lotr/master/CHANGELOG.md

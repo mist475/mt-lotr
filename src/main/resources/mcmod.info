@@ -1,14 +1,14 @@
 [
 {
-  "modid": "mt-lotr",
-  "name": "MineTweaker Integration for the LOTR Mod",
+  "modid": "${modId}",
+  "name": "${modName}",
   "description": "This mod interfaces with MineTweaker/CraftTweaker, so that many devices/traders of the LOTR Mod are modifiable with Minetweaker/CraftTweaker.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "https://github.com/CraftedMods/mt-lotr",
+  "version": "${modVersion}",
+  "mcversion": "${minecraftVersion}",
+  "url": "https://github.com/mist475/mt-lotr",
   "updateUrl": "",
-  "authorList": ["Crafted_Mods (a.k.a. The_Ranger_Malvegil or just Malvegil"],
-  "credits": "stan_hebben (MT), Mevans (LOTR), the Forge, FML and MCP guys, Mojang",
+  "authorList": ["Crafted_Mods (a.k.a. The_Ranger_Malvegil or just Malvegil","mist475 (a.k.a Mistery) for maintenance"],
+  "credits": "stan_hebben (MT), Mevans (LOTR), the Forge, FML and MCP guys, Mojang, Sinth0r4s, TheElan, basdxz, FalsePattern and the gtnh team for the buildscript",
   "logoFile": "",
   "screenshots": [],
   "dependencies": ["Forge", "lotr"]

@@ -1,16 +1,16 @@
 /*******************************************************************************
  * Copyright (C) 2020 CraftedMods (see https://github.com/CraftedMods)
- * 
+ *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ******************************************************************************/
@@ -45,7 +45,7 @@ public class MTLotr
 {
 
     public static final String PREFIX = "[MT LOTR]:";
-    public static final String VERSION = "1.0.0-BETA";
+    public static final String VERSION = "GRADLETOKEN_VERSION";
 
     @Instance(value = "mt-lotr")
     public static MTLotr instance;
@@ -95,6 +95,7 @@ public class MTLotr
             "MT LOTR IS PRESENT - RECIPES OF THE LOTR MOD ARE EVENTUALLY MODIFIED!");
         logger.info (
             "BEFORE REPORTING BUGS TO THE LOTR MOD, MAKE SURE THOSE ARE REPRODUCIBLE WITH AN UNMODIFIED VERSION OF THE LOTR MOD!");
+/*
 
         versionChecker = new VersionChecker ("https://raw.githubusercontent.com/CraftedMods/mt-lotr/master/version.txt",
             SemanticVersion.of (VERSION));
@@ -114,6 +115,7 @@ public class MTLotr
         {
             logger.error (String.format ("Version check failed"), e);
         }
+ */
 
         FMLCommonHandler.instance ().bus ().register (this);
         MinecraftForge.EVENT_BUS.register (this);

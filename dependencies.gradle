@@ -1,0 +1,25 @@
+static def curse(curseDep) {
+    return "curse.maven:" + curseDep
+}
+
+def deobfCurse(curseDep) {
+    String curseMaven = "https://cursemaven.com/" //Use https://cursemaven.falsepattern.com/ if this is down
+    return deobfMaven(curseMaven, curse(curseDep))
+}
+
+// Add your dependencies here
+
+dependencies {
+    //LOTR
+	compile(deobfCurse("lotrmod-423748:3646430"))
+	
+    //CraftTweaker
+    compile(deobfCurse("crafttweaker-239197:2838720"))
+	
+	//deobf versions in case of a build script change
+    //compile(deobf('https://media.forgecdn.net/files/3646/430/LOTRMod+v36.14.jar'))
+	//compile(deobf('https://media.forgecdn.net/files/2838/720/CraftTweaker-1.7.10-3.1.0-legacy.jar'))
+	
+	//McLib (common Malvegil mc library)
+    shadeCompile('com.github.mist475:mc-lib:1.0.0')
+}
